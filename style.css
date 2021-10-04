@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@1,700&display=swap');
+
+
+body {
+  background-image: url("https://images6.alphacoders.com/805/805183.jpg");
+  background-size: cover;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  min-height: 854px;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+.container {
+  opacity: 0.85;
+  background: black;
+  color: #D4D4D4;
+  max-width: 600px;
+  max-height: 560px;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #16A897;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto{
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 40;
+  font-size: 24px;
+}
+
+.projetos {
+  background: #262626;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin-top: 32px;
+	border-radius: 20px;
+	padding: 32px;
+	box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos-titulo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.projetos-item {
+  font-size: 24;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.projetos-item a {
+  color: #D4D4D4;
+  text-decoration: none;
+}
+
+.projetos a:hover {
+  color: #0085AD
+}
+
+ul {
+  list-style-type: none;
+}
+
+.redes-sociais  {
+  font-weight: 400;
+  font-size: 20px;
+  align-items: left;
+}
+  
+  .itens-sociais {
+  border-radius:460px;
+  max-height: 40px;
+  box-shadow: filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-left: 6px;
+  border: 2px solid: f7f7f7;
+  }
